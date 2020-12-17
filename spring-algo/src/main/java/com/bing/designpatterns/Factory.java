@@ -12,12 +12,19 @@ public class Factory {
     private static final String RECTANGLE = "rectangle";
     private static final String CIRCLE = "circle";
 
-    // 接口
+    /**
+     * 接口
+     */
     interface Shape {
+        /**
+         * draw方法
+         */
         void draw();
     }
 
-    // 实现类1
+    /**
+     * 实现类1
+     */
     class Rectangle implements Shape{
         @Override
         public void draw() {
@@ -25,7 +32,9 @@ public class Factory {
         }
     }
 
-    // 实现类2
+    /**
+     * 实现类2
+     */
     class Circle implements Shape{
 
         @Override
@@ -34,7 +43,11 @@ public class Factory {
         }
     }
 
-    // 根据指定参数生成实体类对象 
+    /**
+     * 根据指定参数生成实体类对象
+     * @param shapeType
+     * @return
+     */
     public Shape getShape(String shapeType){
         if (shapeType == null){
             return null;

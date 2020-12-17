@@ -16,7 +16,11 @@ public class Singleton {
         private Singleton1(){}
         // 自身实例化对象
         private static Singleton1 singleton1 = new Singleton1();
-        // 静态方法返回该实例
+
+        /**
+         * 静态方法返回该实例
+         * @return
+         */
         public static Singleton1 getInstance(){
             return singleton1;
         }
@@ -30,7 +34,11 @@ public class Singleton {
         private Singleton2(){}
         // 自身实例化对象，volatile保证其内存可见性
         private static volatile Singleton2 singleton2 = null;
-        // 静态方法返回该实例
+
+        /**
+         * 静态方法返回该实例
+         * @return
+         */
         public static Singleton2 getInstance(){
             // 第一次检查singleton是否被实例化
             if (singleton2 == null){

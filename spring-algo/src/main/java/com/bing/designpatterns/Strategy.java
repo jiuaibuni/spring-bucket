@@ -12,6 +12,12 @@ public class Strategy {
      * 接口
      */
     interface Optional{
+        /**
+         * option方法
+         * @param a
+         * @param b
+         * @return
+         */
         int option(int a , int b);
     }
 
