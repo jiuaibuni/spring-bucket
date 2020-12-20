@@ -6,14 +6,13 @@
 		<groupId>com.bing</groupId>
 		<artifactId>spring-bucket</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.bing</groupId>
 	<artifactId>spring-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-common</name>
-	<description>Demo project for Spring Boot</description>
+	<description>common project for Spring Boot</description>
 
 
 </project>

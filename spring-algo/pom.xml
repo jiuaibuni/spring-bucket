@@ -6,20 +6,12 @@
 		<groupId>com.bing</groupId>
 		<artifactId>spring-bucket</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.bing</groupId>
 	<artifactId>spring-algo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-algo</name>
-	<description>Demo project for Spring Boot</description>
-
-
-
-
-
-
-
+	<description>algo for Spring Boot</description>
 
 </project>

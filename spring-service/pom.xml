@@ -6,7 +6,6 @@
 		<groupId>com.bing</groupId>
 		<artifactId>spring-bucket</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bing</groupId>
 	<artifactId>spring-service</artifactId>
@@ -14,7 +13,12 @@
 	<name>spring-service</name>
 	<description>Demo project for Spring Boot</description>
 
-
-
+	<dependencies>
+		<dependency>
+			<groupId>com.bing</groupId>
+			<artifactId>spring-dao</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
