@@ -4,9 +4,9 @@ spring:
       jdbc-url: jdbc:mysql://121.196.46.195:3306/master_salve?useUnicode=true&characterEncoding=utf-8&useSSL=true
       username: root
       password: bing123
-      driver-class-name: com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver
     slave:
       jdbc-url: jdbc:mysql://121.196.46.195:3307/master_salve?useUnicode=true&characterEncoding=utf-8&useSSL=true
       username: root
       password: bing123
-      driver-class-name: com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver

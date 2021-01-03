@@ -1,7 +1,9 @@
 package com.bing.springweb;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @Description: 启动类
@@ -10,6 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version: 1.0
  */
 @SpringBootApplication
+@MapperScan("com.bing.mapper")
+@ComponentScan("com.bing")
 public class SpringWebApplication {
 
 	public static void main(String[] args) {
